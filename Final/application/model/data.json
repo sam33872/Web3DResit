@@ -1,0 +1,45 @@
+{
+    "data": [
+        {
+            "num": "1 / 3",
+            "desc": "A Fanta Motto"
+        },
+        {
+            "num": "2 / 3",
+            "desc": "Halloween Edition"
+        },
+        {
+            "num": "3 / 3",
+            "desc": "Mystery Flavour"
+        },
+        {
+            "fanta": "Fanta",
+            "zero": "Coke Zero",
+            "coke": "Coke"
+        },
+        {
+            "fanta": "Find out more about Fanta",
+            "zero": "Find out more about Coke Zero",
+            "coke": "Find out more about Coke"
+        },
+        {
+            "text": "This is a small demo of the gallery. A larger gallery can be found under the gallery tab or by clicking the gallery title",
+            "title": "Welcome to the Gallery"
+        },
+        {
+            "camera": "These are some buttons that will change the view to a different camera. There are some extra options in the dropdown.",
+            "animation": "These are where animations would be triggered upon implementation",
+            "render": "These are some settings for changing the render and lighting. There are buttons for each of the lights as well as a dropdown to toggle the type of render",
+            "nav": "These are some button to switch between the different types of navigation available"
+        },
+        {
+            "name": "Developer: Sam",
+            "uni": "University of Sussex",
+            "email": "slm53@sussex.ac.uk"
+        },
+        {
+            "text": "This website is an exploration into the design and styles of different coca cola branded soft drinks. There are some models that can be manipulated to view at any angle and at different lightings etc."
+        }
+    ]
+
+}
