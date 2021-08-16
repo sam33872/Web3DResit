@@ -3,7 +3,7 @@ $(document).ready(function () {
     // Call the loadImage method , you can comment his out if you don't want it to load immediately
     //loadImages("Pepsi Can");
     
-    loadImages("fanta");
+    loadImages("cokezero");
 });
 function loadImages(txtInput) {
     // Grab the image type you are looking for
@@ -29,7 +29,7 @@ function loadImages(txtInput) {
         $.each(data.items, function (i, item) {
             // You will remember this approach from the previosu Gallery code in Lab 5
             htmlCode += '<div class="imgBox">' + '<div><h3> Title: ' + item.title + '</h3></div>';
-            htmlCode += '<img width="700" height="700" src="' + item.media.m + '"/>';
+            htmlCode += '<img src="' + item.media.m + '"/>';
             htmlCode += '<div><h4> Published: ' + item.published + '</h4></div></div>';
             $j++;
             // Set the loop variable, i.e. how many images you want returned, say the first 4 images. 

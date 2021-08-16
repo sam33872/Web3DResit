@@ -6,6 +6,16 @@ function wireframe()
 	var e = document.getElementById('wire');
 	e.runtime.togglePoints(true);
 	e.runtime.togglePoints(true);
+
+	if (document.getElementById('renderSwitch').innerHTML == 'Default') {
+		document.getElementById('renderSwitch').innerHTML = 'Wireframe';
+	}
+	else if (document.getElementById('renderSwitch').innerHTML == 'Wireframe') {
+		document.getElementById('renderSwitch').innerHTML = 'Dots';
+	}
+	else if (document.getElementById('renderSwitch').innerHTML == 'Dots') {
+		document.getElementById('renderSwitch').innerHTML = 'Default';
+	}
 }
 
 // Turn off light 1
@@ -52,6 +62,36 @@ function toggleOmni7() {
 		document.getElementById('model__Omni007').setAttribute('intensity', '0');
 }
 
+function toggleLights() {
+	if (document.getElementById('lightSwitch').innerHTML == 'On') {
+		document.getElementById('lightSwitch').innerHTML = 'Dim';
+		document.getElementById('model__Omni002').setAttribute('intensity', '0.4');
+		document.getElementById('model__Omni003').setAttribute('intensity', '0.4');
+		document.getElementById('model__Omni004').setAttribute('intensity', '0.4');
+		document.getElementById('model__Omni005').setAttribute('intensity', '0.4');
+		document.getElementById('model__Omni006').setAttribute('intensity', '0.4');
+		document.getElementById('model__Omni007').setAttribute('intensity', '0.4');
+	}
+	else if (document.getElementById('lightSwitch').innerHTML == 'Dim') {
+		document.getElementById('lightSwitch').innerHTML = 'Off';
+		document.getElementById('model__Omni002').setAttribute('intensity', '0');
+		document.getElementById('model__Omni003').setAttribute('intensity', '0');
+		document.getElementById('model__Omni004').setAttribute('intensity', '0');
+		document.getElementById('model__Omni005').setAttribute('intensity', '0');
+		document.getElementById('model__Omni006').setAttribute('intensity', '0');
+		document.getElementById('model__Omni007').setAttribute('intensity', '0');
+	}
+	else {
+		document.getElementById('lightSwitch').innerHTML = 'On';
+		document.getElementById('model__Omni002').setAttribute('intensity', '0.8');
+		document.getElementById('model__Omni003').setAttribute('intensity', '0.8');
+		document.getElementById('model__Omni004').setAttribute('intensity', '0.8');
+		document.getElementById('model__Omni005').setAttribute('intensity', '0.8');
+		document.getElementById('model__Omni006').setAttribute('intensity', '0.8');
+		document.getElementById('model__Omni007').setAttribute('intensity', '0.8');
+    }
+}
+
 // Camera angled at front of the model
 function cameraFront()
 {
@@ -89,21 +129,65 @@ function cameraBottom()
 }
 
 // Examine mode of navigation
-function navExamine()
-{
+function navExamine() {
 	document.getElementById('model__NavInfo001').setAttribute('type', 'EXAMINE');
+	document.getElementById('navSwitch').innerHTML = 'Examine';
 }
+
 // Walk mode of navigation
 function navWalk() {
 	document.getElementById('model__NavInfo001').setAttribute('type', 'WALK');
+	document.getElementById('navSwitch').innerHTML = 'Walk';
 }
+
 // Fly mode of navigation
 function navFly() {
 	document.getElementById('model__NavInfo001').setAttribute('type', 'FLY');
+	document.getElementById('navSwitch').innerHTML = 'Fly';
+}
+
+function navHeli() {
+	document.getElementById('model__NavInfo001').setAttribute('type', 'HELICOPTER');
+	document.getElementById('navSwitch').innerHTML = 'Helicopter';
+}
+
+function navLookAt() {
+	document.getElementById('model__NavInfo001').setAttribute('type', 'LOOKAT');
+	document.getElementById('navSwitch').innerHTML = 'Look At';
+}
+
+function navGame() {
+	document.getElementById('model__NavInfo001').setAttribute('type', 'GAME');
+	document.getElementById('navSwitch').innerHTML = 'Game';
 }
 // None mode of navigation
 function navNone() {
 	document.getElementById('model__NavInfo001').setAttribute('type', 'NONE');
+	document.getElementById('navSwitch').innerHTML = 'None';
+}
+
+function toggleNav() {
+	if (document.getElementById('navSwitch').innerHTML == 'Examine') {
+		navWalk();
+	}
+	else if (document.getElementById('navSwitch').innerHTML == 'Walk') {
+		navFly();
+	}
+	else if (document.getElementById('navSwitch').innerHTML == 'Fly') {
+		navHeli();
+	}
+	else if (document.getElementById('navSwitch').innerHTML == 'Helicopter') {
+		navLookAt();
+	}
+	else if (document.getElementById('navSwitch').innerHTML == 'Look At') {
+		navGame();
+	}
+	else if (document.getElementById('navSwitch').innerHTML == 'Game') {
+		navNone();
+	}
+	else {
+		navExamine();
+    }
 }
 
 // Change to fanta can model

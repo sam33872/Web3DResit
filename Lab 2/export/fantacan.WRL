@@ -145,7 +145,7 @@ DEF FantaCan Transform {
           transparency 0
         }
         texture ImageTexture {
-          url "../maps/can_texture.jpg"
+          url "maps/can_texture.jpg"
         }
       }
       geometry DEF FantaCan-FACES IndexedFaceSet {

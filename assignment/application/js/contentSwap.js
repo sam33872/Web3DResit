@@ -3,6 +3,10 @@ function swap(selected) {
     document.getElementById("about").style.display = 'none';
     document.getElementById("models").style.display = 'none';
     document.getElementById("gallery").style.display = 'none';
+    document.getElementById("mailing").style.display = 'none';
+    document.getElementById("originality").style.display = 'none';
+    document.getElementById("references").style.display = 'none';
+    document.getElementById("extensions").style.display = 'none';
 
     document.getElementById(selected).style.display = 'block';
 }
@@ -15,6 +19,25 @@ function popup(selected) {
     document.getElementById(selected).style.display = 'block';
 }
 
+function mailingSystem(selected) {
+    document.getElementById("signUp").style.display = 'none';
+    document.getElementById("updateEmail").style.display = 'none';
+    document.getElementById("checkName").style.display = 'none';
+    document.getElementById("deleteEmail").style.display = 'none';
+    document.getElementById("resetDatabase").style.display = 'none';
+
+    document.getElementById(selected).style.display = 'block';
+}
+
+function modelInteract(selected) {
+    document.getElementById("cameraInteract").style.display = 'none';
+    document.getElementById("renderInteract").style.display = 'none';
+    document.getElementById("lightInteract").style.display = 'none';
+    document.getElementById("navInteract").style.display = 'none';
+    document.getElementById("animationInteract").style.display = 'none';
+
+    document.getElementById(selected).style.display = 'block';
+}
 // w3schools.com modal
 
 // Open the modal

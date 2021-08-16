@@ -9,12 +9,12 @@
     <Viewpoint DEF='RightCamera' description='RightCamera' orientation='0 -1 0 -1.559' position='2261 0 -4.188' fieldOfView='0.6024'/>
     <Viewpoint DEF='TopCamera' description='TopCamera' orientation='0.4962 0.6219 0.6059 -2.2' position='405.4 746.7 -2.807' fieldOfView='0.6024'/>
     <Viewpoint DEF='BottomCamera' description='BottomCamera' orientation='-0.3754 -0.6854 0.6239 -2.359' position='430.8 -731.4 -17.82' fieldOfView='0.6024'/>
-    <PointLight DEF='Omni002' location='909.7 0 -64.58' radius='17080'/>
-    <PointLight DEF='Omni003' location='433.6 40.12 586.9' radius='17080'/>
-    <PointLight DEF='Omni004' location='-234.9 0 -42.76' radius='17080'/>
-    <PointLight DEF='Omni005' location='399.2 0 -558.8' radius='17080'/>
-    <PointLight DEF='Omni006' location='376.3 719.9 -37.43' radius='17080'/>
-    <PointLight DEF='Omni007' location='432 -773.3 -19.79' radius='17080'/>
+    <PointLight DEF='Omni002' intensity='0.8' location='909.7 0 -64.58' radius='17080'/>
+    <PointLight DEF='Omni003' intensity='0.8' location='433.6 40.12 586.9' radius='17080'/>
+    <PointLight DEF='Omni004' intensity='0.8' location='-234.9 0 -42.76' radius='17080'/>
+    <PointLight DEF='Omni005' intensity='0.8' location='399.2 0 -558.8' radius='17080'/>
+    <PointLight DEF='Omni006' intensity='0.8' location='376.3 719.9 -37.43' radius='17080'/>
+    <PointLight DEF='Omni007' intensity='0.8' location='432 -773.3 -19.79' radius='17080'/>
     <Transform DEF='bottle' translation='405.1 -2.553 0.8018'>
       <TimeSensor DEF='bottle-TIMER' cycleInterval='3.333' loop='true'/>
       <Transform DEF='Cap' rotation='0 -1 0 -4.165' scale='6.108 6.108 6.108' translation='0.5798 -54.74 -0.9512'>

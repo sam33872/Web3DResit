@@ -133,6 +133,7 @@ h1, h2, h3 {
     text-align: center;
 }
 
+
 /* Flickr */
 #flickr {
     display: inline-block;
@@ -197,17 +198,6 @@ h1, h2, h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.text {
-    color: #f2f2f2;
-    font-size: 32px;
-    padding: 8px 12px;
-    position: absolute;
-    float: right;
-    top: 20px;
-    width: 100%;
-    text-align: center;
 }
 
 .numbertext {
@@ -324,12 +314,29 @@ X3D, x3d {
 }
 
 /* Footer */
-.footer {
+#foot {
+    color: black;
+    display: inline;
+    margin: 25px;
+    padding-inline: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+#foot2 {
+    display: inline;
+    margin: 10px;
+}
+
+#footerColor {
     color: black;
     background-color: orangered;
-    height: 50px;
+    height: 240px;
     width: 100%;
 }
+
+/* Mailing System */
+
 
 /* Small devices - 576px-*/
 @media (min-width: 576px) {
@@ -359,6 +366,9 @@ X3D, x3d {
         font-size: 40px;
     }
 
+    #footerColor {
+        height: 160px;
+    }
 }
 
 /* Medium Devices*/
@@ -387,6 +397,10 @@ X3D, x3d {
 
     .logo h5 {
         font-size: 40px;
+    }
+
+    #footerColor {
+        height: 120px;
     }
 }
 
@@ -417,5 +431,9 @@ X3D, x3d {
 
     .logo h5 {
         font-size: 50px;
+    }
+
+    #footerColor {
+        height: 80px;
     }
 }
