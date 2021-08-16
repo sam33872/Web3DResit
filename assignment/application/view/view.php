@@ -329,13 +329,13 @@ if(count($_POST)>0) {
                                 <!-- Mini gallery images -->
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        <img src="application/assets/images/renderimages/fanta.jpg" style="width: 100%;"/>
+                                        <img src="application/assets/images/renderImages/fanta.jpg" style="width: 100%;"/>
                                     </div>
                                     <div class="col-sm-4">
-                                        <img src="application/assets/images/renderimages/cokezero.jpg" style="width: 100%;"/>
+                                        <img src="application/assets/images/renderImages/cokezero.jpg" style="width: 100%;"/>
                                     </div>
                                     <div class="col-sm-4">
-                                        <img src="application/assets/images/renderimages/cokeglass.jpg" style="width: 100%;" />
+                                        <img src="application/assets/images/renderImages/cokeglass.jpg" style="width: 100%;" />
                                     </div>
                                 </div>
                                 <div class="card-text description_gallery drinksText"></div>
