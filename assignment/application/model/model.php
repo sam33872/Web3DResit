@@ -7,7 +7,7 @@ class Model {
 	public function __construct()
 	{
         $dir = 'sqlite:./db/data.db';
-        $this->dbh = new PDO($dir, 'user','password', array(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION, PDO::ATTR_EMULATE_PREPARES => false,PDO::ATTR_AUTOCOMMIT => false));
+        $this->dbh = new PDO($dir, 'user','password', array(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION, PDO::ATTR_EMULATE_PREPARES => false,PDO::SQLSRV_TXN_READ_UNCOMMITTED));
 	}
 
 	public function dbCreateTable()
