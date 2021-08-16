@@ -1,5 +1,4 @@
 <?php
-use MongoDB\Driver\Server;
 class Model {
 	// Property declaration, in this case we are declaring a variable or handler that points to the database connection, this will become a PDO object
 	public $dbh;
@@ -8,7 +7,7 @@ class Model {
 	public function __construct()
 	{
         $dir = 'sqlite:./db/data.db';
-        $this->dbh = new PDO($dir, 'user','password', array(PDO::ATTR_AUTOCOMMIT => 0));
+        $this->dbh = new PDO($dir, 'user','password');
 	}
 
 	public function dbCreateTable()
