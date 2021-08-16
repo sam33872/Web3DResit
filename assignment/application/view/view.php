@@ -352,57 +352,57 @@ if(count($_POST)>0) {
                 <!-- Mini gallery images -->
                 <div class="row">
                     <div class="col-sm-4">
-                        <img id="galleryComponent" src="application/assets/images/renderimages/fanta.jpg" style="width: 100%;"/>
+                        <img id="galleryComponent" src="application/assets/images/renderImages/fanta.jpg" style="width: 100%;"/>
                     </div>
                     <div class="col-sm-4">
-                        <img id="galleryComponent" src="application/assets/images/renderimages/fanta2.jpg" style="width: 100%;"/>
+                        <img id="galleryComponent" src="application/assets/images/renderImages/fanta2.jpg" style="width: 100%;"/>
                     </div>
                     <div class="col-sm-4">
-                        <img id="galleryComponent" src="application/assets/images/renderimages/fanta3.jpg" style="width: 100%;"/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <img id="galleryComponent" src="application/assets/images/renderimages/fanta4.jpg" style="width: 100%;"/>
-                    </div>
-                    <div class="col-sm-4">
-                        <img id="galleryComponent" src="application/assets/images/renderimages/fanta5.jpg" style="width: 100%;"/>
-                    </div>
-                    <div class="col-sm-4">
-                        <img id="galleryComponent" src="application/assets/images/renderimages/cokezero.jpg" style="width: 96%;" />
+                        <img id="galleryComponent" src="application/assets/images/renderImages/fanta3.jpg" style="width: 100%;"/>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-4">
-                        <img id="galleryComponent" src="application/assets/images/renderimages/cokezero2.jpg" style="width: 100%;"/>
+                        <img id="galleryComponent" src="application/assets/images/renderImages/fanta4.jpg" style="width: 100%;"/>
                     </div>
                     <div class="col-sm-4">
-                        <img id="galleryComponent" src="application/assets/images/renderimages/cokezero3.jpg" style="width: 100%;"/>
+                        <img id="galleryComponent" src="application/assets/images/renderImages/fanta5.jpg" style="width: 100%;"/>
                     </div>
                     <div class="col-sm-4">
-                        <img id="galleryComponent" src="application/assets/images/renderimages/cokezero4.jpg" style="width: 100%;"/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <img id="galleryComponent" src="application/assets/images/renderimages/cokezero5.jpg" style="width: 100%;"/>
-                    </div>
-                    <div class="col-sm-4">
-                        <img id="galleryComponent" src="application/assets/images/renderimages/cokeglass.jpg" style="width: 100%;"/>
-                    </div>
-                    <div class="col-sm-4">
-                        <img id="galleryComponent" src="application/assets/images/renderimages/cokeglass2.jpg" style="width: 100%;"/>
+                        <img id="galleryComponent" src="application/assets/images/renderImages/cokezero.jpg" style="width: 96%;" />
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-4">
-                        <img id="galleryComponent" src="application/assets/images/renderimages/cokeglass3.jpg" style="width: 100%;"/>
+                        <img id="galleryComponent" src="application/assets/images/renderImages/cokezero2.jpg" style="width: 100%;"/>
                     </div>
                     <div class="col-sm-4">
-                        <img id="galleryComponent" src="application/assets/images/renderimages/cokeglass4.jpg" style="width: 100%;"/>
+                        <img id="galleryComponent" src="application/assets/images/renderImages/cokezero3.jpg" style="width: 100%;"/>
                     </div>
                     <div class="col-sm-4">
-                        <img id="galleryComponent" src="application/assets/images/renderimages/cokeglass5.jpg" style="width: 100%;"/>
+                        <img id="galleryComponent" src="application/assets/images/renderImages/cokezero4.jpg" style="width: 100%;"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img id="galleryComponent" src="application/assets/images/renderImages/cokezero5.jpg" style="width: 100%;"/>
+                    </div>
+                    <div class="col-sm-4">
+                        <img id="galleryComponent" src="application/assets/images/renderImages/cokeglass.jpg" style="width: 100%;"/>
+                    </div>
+                    <div class="col-sm-4">
+                        <img id="galleryComponent" src="application/assets/images/renderImages/cokeglass2.jpg" style="width: 100%;"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img id="galleryComponent" src="application/assets/images/renderImages/cokeglass3.jpg" style="width: 100%;"/>
+                    </div>
+                    <div class="col-sm-4">
+                        <img id="galleryComponent" src="application/assets/images/renderImages/cokeglass4.jpg" style="width: 100%;"/>
+                    </div>
+                    <div class="col-sm-4">
+                        <img id="galleryComponent" src="application/assets/images/renderImages/cokeglass5.jpg" style="width: 100%;"/>
                     </div>
                 </div>
             </div>
